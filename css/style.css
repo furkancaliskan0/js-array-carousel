@@ -1,0 +1,30 @@
+/* General Rules */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    height: 56vh;
+    align-items: center;
+    margin: 200px auto;
+    position: relative;
+}
+
+.item{
+    display: none;
+}
+
+img{
+    width: 100%;
+    height: 400px;
+}
+
+
+.item.active{
+    display: block;
+
+}
+
